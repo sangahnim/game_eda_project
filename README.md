@@ -14,12 +14,21 @@
 >  3) data 내용 정리 : 지역별 Sales 컬럼에 문자가 들어간 경우 삭제 후, Sales타입을 수치로 변경, Total_Sales 특성 생성, '-'->'_' 컬럼이름정리
 4. **시각화**
 >  1) 지역별, 게임 장르별 출고율 (북미,EU,일본,기타지역의 장르별 게임 출고량을 원그래프로 나타냄)
+>  <img width="940" alt="스크린샷 2022-07-28 오후 11 12 10" src="https://user-images.githubusercontent.com/86824895/181528991-7230f678-b29e-4593-b9d6-341ddc023c14.png">
+>  <img width="964" alt="스크린샷 2022-07-28 오후 11 12 16" src="https://user-images.githubusercontent.com/86824895/181529301-fbfc6a5b-7ce1-4f90-a71e-c8b1cb881af6.png">
 >>     -> 일본을 제외한 전 지역에서 Action, Shooter, Sports순으로 인기가 있고, 
 >>     -> 일본은 Shooter장르 제외하고, Role-Playing을 선호하는 것을 보여줌.
 >  2) 연도별 게임 장르의 출고량 시각화 (데이터의 Genre컬럼을 Year별로 구분하여 피봇테이테이블로 정리 후, 게임 장르별로 연간 출고량 변화를 선그래프로 나타냄)
+>  <img width="820" alt="스크린샷 2022-07-28 오후 11 12 25" src="https://user-images.githubusercontent.com/86824895/181529726-88f0a257-d4b9-4610-99a5-e005a8985a2b.png">
+
 >>      -> 액션과 스포츠는 2000년대 급성장을 하고, 플랫폼은 계속 꾸준히 인기있음을 확인.    
+
 5. **출고량이 높은 게임에 대한 분석 및 시각화 프로세스**
 >  1) 전체 출고량이 높은 게임에 대한 분석
+>  <img width="729" alt="스크린샷 2022-07-28 오후 11 12 35" src="https://user-images.githubusercontent.com/86824895/181529846-31afe208-928b-4c56-9cd2-13703f9ec664.png">
+>  <img width="553" alt="스크린샷 2022-07-28 오후 11 12 41" src="https://user-images.githubusercontent.com/86824895/181530063-7f0d5878-4dee-4cc0-975f-61844e7eb1fa.png">
+
+
 >>     -> 출고량 상위 30개 중 대부분의 출고사는 닌텐도임을 확인.
 
 
@@ -30,7 +39,7 @@
 > 인간의 생활환경 변화에 따라 시장이 민감하게 변화했다고 볼 수 있기에, 비디오게임 개발 시, 앞으로의 생활패턴을 생각하여 개발에 신중할 필요가 있다 
 
 ![EDA_Project_수정 001](https://user-images.githubusercontent.com/86824895/181526181-11336cb3-1f82-402b-a6d5-7e197a786d6e.jpeg)
-![EDA_Project_수정 002](https://user-images.githubusercontent.com/86824895/181526212-fc9fb713-2ff5-4620-8e0c-b3f28b0e562e.jpeg)
+![EDA_Project_수정 002](https://user-images.githubusercontent.com/86824895/181531772-80136025-d274-4db0-b852-d6afc4237797.jpeg)
 ![EDA_Project_수정 003](https://user-images.githubusercontent.com/86824895/181526220-4e09df83-bca0-4d8e-88e7-bdda4dacdb45.jpeg)
 ![EDA_Project_수정 004](https://user-images.githubusercontent.com/86824895/181526233-dce9edaa-04dd-49df-b311-f9bf21672a8f.jpeg)
 ![EDA_Project_수정 005](https://user-images.githubusercontent.com/86824895/181526241-c775031c-c595-46f8-8f1c-66511dd61a51.jpeg)
