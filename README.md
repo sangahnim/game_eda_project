@@ -7,6 +7,8 @@
 >  * 게임시장에서 가장 성장률이 높은 비디오게임의 지역별 선호하는 게임장르, 출고량이 높은 퍼블리셔에 대해 분석하여 어떤 비디오게임을 출시해야 기업매출향상에  도움이 될 지 의사결정을 하기 위한 도움이 되고자 한다.
 >  * 기사참조(https://www.vop.co.kr/A00001605585.html)
 >  * 기사참조(https://science.ytn.co.kr/program/program_view.php?s_mcd=0082&s_hcd=&key=202112201717236926)
+<img width="592" alt="스크린샷 2022-07-29 오후 2 57 02" src="https://user-images.githubusercontent.com/86824895/181692517-57425c95-914d-464d-b93c-3eea77e84fc8.png">
+
 
 3. **EDA, Data preprocessing** : 
 >  1) 결측치제거 : 불필요한 'N/A'을 공란으로 만든 후, 해당내용 및 이 외의 결측치 포함된 행 제거
